@@ -18,6 +18,14 @@
         "source": "",
         "forum": "https://community.contao.org/de"
     },
+    "repositories":[
+   {
+      "type": "git",
+      "url": "git@bitbucket.org:our_vendor/our_private_package.git"
+   }
+],
+"minimum-stability": "dev",
+"prefer-stable": true,
     "require":{
         "php": ">=7.1",
         "contao/core-bundle": "^4.4 || ^5.0",
