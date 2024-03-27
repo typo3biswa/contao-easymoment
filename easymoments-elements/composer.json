@@ -1,5 +1,5 @@
 {
-    "name": "easyinfobox/easymoments-elements",
+    "name": "typo3biswa/contao-easymoment",
     "description": "Simple Contao extension as a module and content element",
     "type": "contao-module",
     "homepage": "",
