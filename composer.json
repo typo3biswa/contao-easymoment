@@ -8,14 +8,15 @@
         {
             "name": "biswa",
             "homepage": "",
+            
             "email": "onlinebiswajit@gmail.com",
             "role": "Developer"
         }
     ],
     "support":{
         "email": "onlinebiswajit@gmail.com",
-        "issues": "",
-        "source": "",
+        "issues": "https://github.com/typo3biswa/contao-easymoment/issues",
+        "source": "https://github.com/typo3biswa/contao-easymoment",
         "forum": "https://community.contao.org/de"
     },
    "minimum-stability": "dev",
@@ -29,13 +30,13 @@
     "extra":{
         "contao":{
             "sources":{
-                "system/modules/sharebuttons": "system/modules/easyinfobox"
+                "system/modules/infobox": "system/modules/easyinfobox"
             }
         }
     },
     "autoload": {
         "classmap": [
-            "system/modules/easyinfobox/elements/"
+            "system/modules/infobox/elements/"
         ]
     }
 }
