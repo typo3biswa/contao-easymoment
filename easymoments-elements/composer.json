@@ -35,9 +35,7 @@
     },
     "autoload": {
         "classmap": [
-            //"system/modules/sharebuttons/classes/",
-            "system/modules/sharebuttons/elements/"
-            //"system/modules/sharebuttons/modules/"
+            "system/modules/easyinfobox/elements/"
         ]
     }
 }
