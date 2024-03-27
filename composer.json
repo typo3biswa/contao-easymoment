@@ -21,6 +21,12 @@
     },
    "minimum-stability": "dev",
    "prefer-stable": true,
+    "repositories": [
+     {
+       "type": "git",
+       "url": "git@github.com:typo3biswa/contao-easymoment.git"
+     }
+   ],
     "require":{
         "typo3biswa/contao-easymoment": "*"
         "php": ">=7.1",
