@@ -1,0 +1,32 @@
+<?php
+# @Author: Andreas Prietzel <andreasprietzel>
+# @Date:   2018-09-12T07:25:56+02:00
+# @Filename: topicbox.html5
+# @Last modified by:   andreasprietzel
+# @Last modified time: 2018-09-12T08:07:49+02:00
+
+//echo 'sdfsdfsdfsdfsdfsf';
+
+
+echo '<div class="TopicBox jsAjaxClick '.$this->class.'" data-href="'.$this->url.'" data-class="'.strtolower( $this->caption ).'">';
+//echo '<a class="'.strtolower( $this->caption ).'" href="'.$this->url.'">';
+echo '<div class="Frontx">';
+//echo '<div class="SpecialOfferContainer"><div class="Ribbon"><div class="Text">'.$this->specialofferlabel.'</div></div></div>';
+//echo $this->speicaloffer;
+
+if ($this->specialoffer === '1')
+{
+    echo '<div class="SpecialOfferContainer"><div class="Ribbon"><div class="Text">'.$this->specialofferlabel.'</div></div></div>';
+}
+
+echo '<img src="'.$this->imageSRC.'">';
+echo '<div class="Caption"><span>'.$this->caption.'</span></div>';
+echo '<div class="Headline"><span>'.$this->headline.'</span></div>';
+echo '</div>';
+
+echo '<a class="'.strtolower( $this->caption ).'" href="'.$this->url.'">';
+echo '<div class="DetailButton" data-index="0"><i class="fa fa-angle-right"></i></div>';
+echo '</a>';
+echo '</div>';
+
+?>
